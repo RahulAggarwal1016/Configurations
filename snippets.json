@@ -1,0 +1,19 @@
+{
+	"Console Log": {
+		"prefix": "cl",
+		"body": [
+		  "console.log($1);"
+		],
+		"description": "Log output to console"
+	  },
+	  "useState snippet": {
+		"prefix": "us",
+		"body": "const [${1}, set${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}] = useState(${2});",
+		"description": "use state but it camel cases"
+	  },
+	  "process env snippet": {
+		  "prefix": "penv",
+		  "body": "process.env.${1}",
+		  "description": "using process.env"
+	  }
+}

@@ -2,17 +2,10 @@
 
 This repository contains the various files I use to configure my coding setup including my eslint settings, extensions lists, keyboard shortcuts etc. Feel free to take a look and integrate them into your current IDE/development enviornment. I have provided some brief documentation regarding each file below
 
-## Eslint.json
+## Eslint Notes
 
-To active and use my exact eslint configuration setup follow the below steps
-
-1. Make sure to have eslint installed globally `npm install eslint -g` or locally
-2. Download the <b>Prettier, Eslint and Eslint Prettier </b> extensiosn and make sure to enable them all and allow for being able to format on save
-3. In the root of an existing project run `eslint --init`, which will initialize a base eslint configuration (use the AirBnB configuration and be sure the select the option to "enforce coding style")
-4. If you used `create-react-app` for your project delete the default eslint config in your project's package.json
-5. If you used `npm init Gatsby` delete any eslint related folders in node_modules
-6. Run `npm i -D prettier eslint-plugin-prettier eslint-config-prettier`
-7. Finally make sure to select "Eslint-Prettier" as your format method
+- If you used `create-react-app` for your project delete the default eslint config in your project's package.json
+- If you used `npm init Gatsby` delete any eslint related folders in node_modules
 
 ## Snippet.json
 
